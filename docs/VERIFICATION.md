@@ -4,7 +4,7 @@ Verification ensures Agentic AI systems operate safely, responsibly, and accurat
 
 ---
 
-## 1. Why Verification Matters
+### 1. Why Verification Matters
 
 Agents must not:
 - hallucinate instructions
@@ -21,7 +21,7 @@ Verification ensures:
 
 ---
 
-## 2. Types of Verification
+### 2. Types of Verification
 
 ### **Automated Verification**
 Performed by a verifier agent or secondary LLM:
@@ -40,7 +40,7 @@ Triggered when:
 
 ---
 
-## 3. Verification Workflow
+### 3. Verification Workflow
 Planner → Verifier → (Pass or Fail)
 
 If Pass → Execute Tools
@@ -51,7 +51,7 @@ Human Approval → Final Execution → Memory Update
 
 ---
 
-## 4. Verification Techniques
+### 4. Verification Techniques
 
 ### 4.1 Consistency Checking
 Multiple agents cross-check an answer.
@@ -69,7 +69,7 @@ Detects anomalies or incorrect formats.
 
 ---
 
-## 5. Safety Strategies
+### 5. Safety Strategies
 
 - Permission system per tool  
 - Logging all actions  
@@ -79,5 +79,5 @@ Detects anomalies or incorrect formats.
 
 ---
 
-## Summary
+### Summary
 Verification ensures reliability, trustworthiness, and safe autonomy within Agentic AI systems.
